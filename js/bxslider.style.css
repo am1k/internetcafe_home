@@ -1,0 +1,18 @@
+.bx-wrapper .bx-viewport {
+    border: none;
+    border-radius: 5px;
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    bottom: 22px;
+    z-index: 100;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #fff;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active{
+    background-color: #3baaae;
+}
