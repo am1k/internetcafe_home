@@ -13,7 +13,7 @@ body {
     background-image: url("img/bg-wrapper.png");
     background-size: 100%;
 }
-#header{
+header{
     width: 100%;
     background-image: url("img/bg-header.png");
     height: 115px;
@@ -56,45 +56,38 @@ body {
     display: inline-block;
     padding: 20px;
 }
+.menu li:hover{
+    display: inline-block;
+    border-left: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+    color: #2ab5ba;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #fff;
+}
+li:hover + li {
+    border-left: 1px solid transparent;
+}
+li:nth-of-type(1) + li {
+    border-left: 1px solid transparent;
+}
 .menu li:first-child {
     border-left: 1px solid transparent;
 }
 .menu li:last-child {
     border-right: 1px solid transparent;
 }
-.menu li:hover{
-    display: inline-block;
-    border: 1px solid #fff;
-    color: #2ab5ba;
-    cursor: pointer;
-    background-color: #fff;
-}
 .menu li span {
     background-color: #fff;
-    border: 1px solid transparent;
+    border: 1px solid #fff;
     border-right: 1px solid #e9e9e9;
-    border-left: 1px solid #fff ;
+    border-left: 1px solid #e9e9e9;
     display: inline-block;
+    border-radius: 3px;
     margin: -2px;
 }
 .menu li span a {
     color: #2ab5ba;
-}
-.menu li:first-child:hover {
-    display: inline-block;
-    border: 1px solid #fff;
-    color: #2ab5ba;
-    border-radius: 3px 0 0 3px;
-    cursor: pointer;
-    background-color: #fff;
-}
-.menu li:last-child:hover {
-    display: inline-block;
-    border: 1px solid #fff;
-    color: #2ab5ba;
-    border-radius: 0 3px 3px 0;
-    cursor: pointer;
-    background-color: #fff;
 }
 .menu li:hover a {
     color: #2ab5ba;
@@ -156,12 +149,13 @@ body {
 }
 .find-service-left {
     float: left;
-    margin-top: 10px;
+    margin-top: 9px;
 }
 .find-service-left li {
     width: 280px;
     margin-bottom: 10px;
     margin-top: 10px;
+    border: 1px solid transparent;
     list-style-type: disc;
     color: #2ab5ba;
     margin-left: 16px;
@@ -176,12 +170,13 @@ body {
 }
 .find-service-right {
     float: right;
-    margin-top: 9px;
+    margin-top: 8px;
     line-height: 1.8;
     margin-right: 11px;
 }
 .find-service-right li {
     width: 281px;
+    border: 1px solid transparent;
     margin-bottom: 7px;
     margin-top: 11px;
     color: #2ab5ba;
@@ -275,7 +270,7 @@ body {
     text-decoration: underline;
     color: #2ab5ba;
 }
-#footer {
+footer {
     width: 100%;
     background-image: url("img/bg-footer.png");
     height: 165px;
@@ -328,6 +323,7 @@ body {
 .social-icons li {
     padding-right: 10px;
     float: left;
+    border: 1px solid transparent;
 }
 .social-icons a {
     display: inline-block;
