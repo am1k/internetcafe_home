@@ -1,0 +1,20 @@
+div {
+    color: green; /* ÐÐ»Ñ Ð±ÑÐ°ÑÐ·ÐµÑÐ° Internet Explorer */
+}
+.find-service ul li {
+    color: red;
+}
+header {
+    background: url("img/bg-header.png");
+    width: 100%;
+    height: 115px;
+}
+.find-service ul li p {
+    color: red;
+}
+.find-service-left li {
+    margin-top: 20px;
+}
+.latest-news {
+    color: red;
+}
